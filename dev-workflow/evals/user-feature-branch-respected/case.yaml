@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: user-feature-branch-respected
+expected_outcome: |
+  Пользователь сидит в своей ветке feature/login. Агент не уводит работу на main: создаёт ветку
+  задачи от feature/login (или уточняет и работает в ней), не трогает main и в отчёте пишет, как
+  забрать результат.
+context:
+  scaffold_script: place-files.sh

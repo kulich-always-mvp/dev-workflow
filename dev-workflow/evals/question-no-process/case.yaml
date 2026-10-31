@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: question-no-process
+expected_outcome: |
+  Это вопрос без правок (класс 0): агент объясняет, что причина — округление вниз (ROUND_DOWN), и
+  ничего не меняет: ни файлов, ни веток, ни коммитов, ни служебной папки .ai.
+context:
+  scaffold_script: place-files.sh

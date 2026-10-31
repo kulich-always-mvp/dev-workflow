@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: readme-typo-stays-small
+expected_outcome: |
+  Задача класса S: агент исправляет одно слово в отдельной ветке, без файлов TASK/SPEC/PLAN, без
+  вопросов, и выдаёт короткий отчёт класса S.
+context:
+  scaffold_script: place-files.sh

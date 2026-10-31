@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: small-feature-stays-s
+expected_outcome: |
+  Небольшая новая функция с очевидным поведением — класс S: агент пишет тест до кода и показывает его
+  красный статус, реализует parse_duration, показывает зелёный прогон, коммитит в отдельной ветке и
+  выдаёт короткий отчёт S, без TASK.md, PROJECT.md и вопросов.
+context:
+  scaffold_script: place-files.sh
